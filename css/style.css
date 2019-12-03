@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.col-50{
+    width: 50%;
+}
+
+.formElements{
+    padding: 1em;
+    width: 100%;
+}
+
+.employeeDetails{
+    padding-bottom: 1em;
+}
+
+.employeeDetails label{
+    font-size: 1.4em;
+}
+.employeeDetails input[type=text]{
+    font-size: 1.4em;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+.formHeading{
+    color: blue;
+}
+
+.salbtn{
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 0.3em;
+}

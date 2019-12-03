@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +8,48 @@
     <title>Payroll Web Application</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
     <header>
-        <h1>Payroll Web Application</h1>
+        <h1 class="formHeading">Payroll Web Application</h1>
     </header>
     <main>
-        <form action="">
-        <label for="">Employee Number</label>
-        <input type="text" id="empId"><br><br>
+        <form class="employeefrm" name="employeeFrm">
+            <div class="formElements">
+                <div class="employeeDetails">
+                    <label for="">Employee Number</label>
+                    <input type="text" id="empId">
+                </div>
 
-        <label for="">Employee Name</label>
-        <input type="text" id="empName"><br><br>
+                <div class="employeeDetails">
+                    <label for="">Employee Name</label>
+                    <input type="text" id="empName">
+                </div>
 
-        <label for="">Employee Department</label>
-        <input type="text" id="empDep"><br><br>
+                <div class="employeeDetails">
+                    <label for=""> Department</label>
+                    <input type="text" id="empDep">
+                </div>
 
-        <label for="">Hours Worked</label>
-        <input type="text" id="emphours"><br><br>
+                <div class="employeeDetails">
+                    <label for="">Hours Worked</label>
+                    <input type="text" id="emphours"></div>
 
-        <label for="">Employee Type Code</label>
-        <input type="text" id="empCode"><br><br>
+                <div class="employeeDetails">
+                    <label for="">Employee Type</label>
+                    <input type="text" id="empCode">
+                </div>
 
-        <h2>For Faculty</h2>
-        <label for="">Faculty Qualification Code</label>
-        <input type="text" id="facQualCode"><br><br>
+                <div class="employeeDetails">
+                    <input type="button" value="Calculate" id="calcBtn" class="salbtn">
+                    <input type="reset" value="Clear" class="salbtn">
+                </div>
 
-        <h3>Faculty Gross Salary:</h3>
-        
-        <h2>For Regular Workers</h2>
-        <label for="">Fixed salary</label>
-        <input type="text" id="fixSal"><br><br>
+            </div>
 
-        <h2>Deductions</h2>
-        <label for="">Income Tax:</label><br><br>
-        <label for="">Health Surcharge Fee:</label>
-        <h3>Net Pay:</h3>
-    </form>
+        </form>
     </main>
     <script src="js/index.js"></script>
 </body>
+
 </html>
