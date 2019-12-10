@@ -39,10 +39,29 @@ function CalculateSalary() {
                 netPay = fixedSalary + 2500 - deductions;
                 console.log("Deductions:" + deductions);
                 console.log("Net Pay:" + netPay);
+                document.getElementById('employeeNumber').innerHTML=`<h3>PAY SLIP</h3>Employee Number: ${employeeId}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employeeName}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employeeDepartment}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employeeHours}`;
+          document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
+
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${fixedSalary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deductions}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${netPay}`;
             }
             else if (fixedSalary <= 3000) {
                 deductions = (fixedSalary * 0.25) - 19.20;
                 netPay = fixedSalary + 2500 - deductions;
+
+                document.getElementById('employeeNumber').innerHTML=`<h3>PAY SLIP</h3>Employee Number: ${employeeId}`;
+                document.getElementById('employeeName').innerHTML=`Employee Name: ${employeeName}`;
+                document.getElementById('employeeDepartment').innerHTML=`Department: ${employeeDepartment}`;
+                document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employeeHours}`;
+                document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
+      
+                document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${fixedSalary}`;
+                document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deductions}`;
+                document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${netPay}`;
                 console.log("Deductions:" + deductions);
                 console.log("Net Pay:" + netPay);
             }
@@ -56,12 +75,30 @@ function CalculateSalary() {
             if (fixedSalary > 3000) {
                 deductions = (fixedSalary * 0.25) - 33;
                 netPay = fixedSalary + 2500 - deductions;
+                document.getElementById('employeeNumber').innerHTML=`<h3>PAY SLIP</h3>Employee Number: ${employeeId}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employeeName}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employeeDepartment}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employeeHours}`;
+          document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
+
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${fixedSalary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deductions}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${netPay}`;
                 console.log("deductions:" + deductions);
                 console.log("Net Pay:" + netPay);
             }
             else if (fixedSalary <= 3000) {
                 deductions = (fixedSalary * 0.25) - 19.20;
                 netPay = fixedSalary + 2500 - deductions;
+                document.getElementById('employeeNumber').innerHTML=`<h3>PAY SLIP</h3>Employee Number: ${employeeId}`;
+                document.getElementById('employeeName').innerHTML=`Employee Name: ${employeeName}`;
+                document.getElementById('employeeDepartment').innerHTML=`Department: ${employeeDepartment}`;
+                document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employeeHours}`;
+                document.getElementById('employeeType').innerHTML=`Employee Type:Faculty`;
+      
+                document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${fixedSalary}`;
+                document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deductions}`;
+                document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${netPay}`;
                 console.log("deductions:" + deductions);
                 console.log("Net Pay:" + netPay);
             }
@@ -76,6 +113,16 @@ function CalculateSalary() {
 
             deductions = (fixedSalary * 0.25) - 33;
             netPay = parseInt(fixedSalary) + 2500 - deductions;
+            document.getElementById('employeeNumber').innerHTML=`<h3>PAY SLIP</h3>Employee Number: ${employeeId}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employeeName}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employeeDepartment}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employeeHours}`;
+          document.getElementById('employeeType').innerHTML=`Employee Type:Regular`;
+
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${fixedSalary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:${deductions}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:${netPay}`;
+
             console.log("Gross Salary:" + fixedSalary);
             console.log("Deductions:" + deductions);
             console.log("Net Pay:" + netPay);
@@ -86,6 +133,17 @@ function CalculateSalary() {
             console.log("Gross Salary:" + fixedSalary);
             deductions = (fixedSalary * 0.25) - 19.20;
             netPay = parseInt(fixedSalary) + parseFloat(2500 - deductions);
+
+            document.getElementById('employeeNumber').innerHTML=`<h3>PAY SLIP</h3>Employee Number: ${employeeId}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employeeName}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employeeDepartment}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employeeHours}`;
+          document.getElementById('employeeType').innerHTML=`Employee Type:Regular`;
+
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:${fixedSalary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:${deductions}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:${netPay}`;
+
             console.log("Deductions:" + deductions);
             console.log("Net Pay:" + netPay);
         }
@@ -96,6 +154,15 @@ function CalculateSalary() {
             console.log("Gross Salary:" + totalSalary);
             deductions = ((totalSalary * 0.25) - 33).toFixed(2);
             netPay = (totalSalary + 2500 - deductions).toFixed(2);
+            document.getElementById('employeeNumber').innerHTML=`<h3>PAY SLIP</h3>Employee Number: ${employeeId}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employeeName}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employeeDepartment}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employeeHours}`;
+          document.getElementById('employeeType').innerHTML=`Employee Type:Regular`;
+
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${totalSalary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deductions}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${netPay}`;
             console.log("Deductions:" + deductions);
             console.log("Net Pay:" + netPay);
         }
@@ -105,6 +172,15 @@ function CalculateSalary() {
             console.log("Gross Salary:" + totalSalary);
             deductions = ((totalSalary * 0.25) - 19.20).toFixed(2);
             netPay = (totalSalary + 2500 - deductions).toFixed(2);
+            document.getElementById('employeeNumber').innerHTML=`<h3>PAY SLIP</h3>Employee Number: ${employeeId}`;
+            document.getElementById('employeeName').innerHTML=`Employee Name: ${employeeName}`;
+            document.getElementById('employeeDepartment').innerHTML=`Department: ${employeeDepartment}`;
+            document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employeeHours}`;
+            document.getElementById('employeeType').innerHTML=`Employee Type:Regular`;
+  
+            document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${totalSalary}`;
+            document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deductions}`;
+            document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${netPay}`;
             console.log("Deductions:" + deductions);
             console.log("Net Pay:" + netPay);
         }
@@ -115,10 +191,21 @@ function CalculateSalary() {
             console.log("Gross Salary:" + totalSalary);
             deductions = ((totalSalary * 0.25) - 33).toFixed(2);
             netPay = (totalSalary + 2500 - deductions).toFixed(2);
+
+            document.getElementById('employeeNumber').innerHTML=`<h3>PAY SLIP</h3>Employee Number: ${employeeId}`;
+          document.getElementById('employeeName').innerHTML=`Employee Name: ${employeeName}`;
+          document.getElementById('employeeDepartment').innerHTML=`Department: ${employeeDepartment}`;
+          document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employeeHours}`;
+          document.getElementById('employeeType').innerHTML=`Employee Type:Regular`;
+
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${totalSalary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deductions}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${netPay}`;
+
             console.log("Deductions:" + deductions);
             console.log("Net Pay:" + netPay);
         }
-        else if (employeeHours > 160 && totalSalary <= 3000) {
+        else if (employeeHours > 160 && fixedSalary <= 3000) {
             overTimeHours = employeeHours - 160;
             salaryHourlyRate = fixedSalary / 160;
             totalSalary = (160 * salaryHourlyRate + overTimeHours * salaryHourlyRate * 2).toFixed(2);
@@ -126,7 +213,18 @@ function CalculateSalary() {
             deductions = ((totalSalary * 0.25) - 19.20).toFixed(2);
             netPay = (totalSalary + 2500 - deductions).toFixed(2);
             console.log("Deductions:" + deductions);
+            console.log("Net Pay:" + netPay);console.log("Deductions:" + deductions);
             console.log("Net Pay:" + netPay);
+            document.getElementById('employeeNumber').innerHTML=`<h3>PAY SLIP</h3>Employee Number: ${employeeId}`;
+                document.getElementById('employeeName').innerHTML=`Employee Name: ${employeeName}`;
+                document.getElementById('employeeDepartment').innerHTML=`Department: ${employeeDepartment}`;
+                document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employeeHours}`;
+                document.getElementById('employeeType').innerHTML=`Employee Type:Regular`;
+      
+                document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${totalSalary}`;
+                document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deductions}`;
+                document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${netPay}`;
+            
         }
     }
 }

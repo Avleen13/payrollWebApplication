@@ -9,13 +9,20 @@ body{
     padding: 1em;
 }
 
+.DetailsMain{
+    color: #0052CE;
+}
+.employeeDetailsPrint{
+    padding-bottom: 1em;
+
+}
 .employeeDetails{
     padding-bottom: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.employeeDetails label{
+.employeeDetails label, .employeeDetailsPrint label{
     font-size: 1.4em;
 }
 .employeeDetails input[type=text]{
