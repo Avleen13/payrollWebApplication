@@ -120,8 +120,8 @@ function CalculateSalary() {
           document.getElementById('employeeType').innerHTML=`Employee Type:Regular`;
 
           document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${fixedSalary}`;
-          document.getElementById('employeeDeduction').innerHTML=`Deduction:${deductions}`;
-          document.getElementById('employeeNetPay').innerHTML=`Net Pay:${netPay}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deductions}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${netPay}`;
 
             console.log("Gross Salary:" + fixedSalary);
             console.log("Deductions:" + deductions);
@@ -140,9 +140,9 @@ function CalculateSalary() {
           document.getElementById('employeeHours').innerHTML=`Number of hours worked: ${employeeHours}`;
           document.getElementById('employeeType').innerHTML=`Employee Type:Regular`;
 
-          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:${fixedSalary}`;
-          document.getElementById('employeeDeduction').innerHTML=`Deduction:${deductions}`;
-          document.getElementById('employeeNetPay').innerHTML=`Net Pay:${netPay}`;
+          document.getElementById('employeeGrossSalary').innerHTML=`Gross Salary:$ ${fixedSalary}`;
+          document.getElementById('employeeDeduction').innerHTML=`Deduction:$ ${deductions}`;
+          document.getElementById('employeeNetPay').innerHTML=`Net Pay:$ ${netPay}`;
 
             console.log("Deductions:" + deductions);
             console.log("Net Pay:" + netPay);
